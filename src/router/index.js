@@ -17,11 +17,6 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue'),
     },
-    // {
-    //   path: '/navbar',
-    //   name: 'NavBar',
-    //   component: () => import('./views/Nav-bar.vue'),
-    // },
   ],
 })
 
