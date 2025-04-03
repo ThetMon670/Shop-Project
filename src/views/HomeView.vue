@@ -24,7 +24,7 @@
             <div class="max-w-sm border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                 <div class="relative">
-                  <img class="rounded-t-lg" src="./assets/img/h4-1.png" alt="" />
+                  <img class="rounded-t-lg" src="../assets/img/h4-1.png" alt="" />
                   <!-- Label added on the image -->
                   <div class="absolute top-3 left-3 bg-black text-white px-2 py-1 text-sm font-bold">
                     New
@@ -59,7 +59,7 @@
             <div class="max-w-sm border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                 <div class="relative">
-                  <img class="rounded-t-lg" src="./assets/img/h4-2.png" alt="" />
+                  <img class="rounded-t-lg" src="../assets/img/h4-2.png" alt="" />
                   
                 </div>
               </a>
@@ -91,7 +91,7 @@
             <div class="max-w-sm border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                 <div class="relative">
-                  <img class="rounded-t-lg" src="./assets/img/h4-3.png" alt="" />
+                  <img class="rounded-t-lg" src="../assets/img/h4-3.png" alt="" />
                   <!-- Label added on the image -->
                   <div class="absolute top-3 left-3 bg-black text-white px-2 py-1 text-sm font-bold">
                     New
@@ -126,7 +126,7 @@
             <div class="max-w-sm border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                 <div class="relative">
-                  <img class="rounded-t-lg" src="./assets/img/h4-4.png" alt="" />
+                  <img class="rounded-t-lg" src="../assets/img/h4-4.png" alt="" />
                   <!-- Label added on the image -->
                   <div class="absolute top-3 left-3 bg-black text-white px-2 py-1 text-sm font-bold">
                     New
@@ -163,7 +163,7 @@
             <div class="max-w-sm border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                 <div class="relative">
-                  <img class="rounded-t-lg" src="./assets/img/h4-5.png" alt="" />
+                  <img class="rounded-t-lg" src="../assets/img/h4-5.png" alt="" />
                 </div>
               </a>
               <div class="p-5">
@@ -194,7 +194,7 @@
             <div class="max-w-sm border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                 <div class="relative">
-                  <img class="rounded-t-lg" src="./assets/img/h4-6.png" alt="" />
+                  <img class="rounded-t-lg" src="../assets/img/h4-6.png" alt="" />
                   
                 </div>
               </a>
@@ -226,7 +226,7 @@
             <div class="max-w-sm border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                 <div class="relative">
-                  <img class="rounded-t-lg" src="./assets/img/h4-7.png" alt="" />
+                  <img class="rounded-t-lg" src="../assets/img/h4-7.png" alt="" />
                   <!-- Label added on the image -->
                   <div class="absolute top-3 left-3 bg-black text-white px-2 py-1 text-sm font-bold">
                     New
@@ -261,7 +261,7 @@
             <div class="max-w-sm border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                 <div class="relative">
-                  <img class="rounded-t-lg" src="./assets/img/h4-8.png" alt="" />
+                  <img class="rounded-t-lg" src="../assets/img/h4-8.png" alt="" />
                 </div>
               </a>
               <div class="p-5">
@@ -299,7 +299,7 @@
           <div class="flex items-center ml-24 gap-24">
               <div class="flex-1 p-4">
                 <div class="relative">
-                    <img class="rounded-t-lg" src="./assets/img/ad-1-edit.png" />
+                    <img class="rounded-t-lg" src="../assets/img/ad-1-edit.png" />
                 </div>
               </div>
               <div class="flex-1">

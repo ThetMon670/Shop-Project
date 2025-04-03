@@ -2,8 +2,8 @@
   <nav class="bg-white shadow-lg px-16 p-4">
     <div class="container mx-auto flex justify-between items-center">
       <div class="hidden md:flex space-x-6 gap-4 text-black">
-        <a href="#" class="hover:text-gray-400">HOME</a>
-        <a href="#" class="hover:text-gray-400">DETAILS</a>
+        <a href="#" class="hover:text-gray-400 font-medium">HOME</a>
+        <a href="#" class="hover:text-gray-400"><router-link to="/detail">DETAILS</router-link></a>
         <a href="#" class="hover:text-gray-400">PAGES</a>
         <a href="#" class="hover:text-gray-400">ELEMENTS</a>
       </div>
