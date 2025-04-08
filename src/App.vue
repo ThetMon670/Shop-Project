@@ -1,14 +1,9 @@
 <script setup>
-  import NavBar from './views/Nav-bar.vue'
-  import HeroSec from './views/Hero-section.vue'
-  import Footer from './views/Footer.vue'
+  // import NavBar from './views/Nav-bar.vue'
 </script>
-
 <template>
   <section>
-    <NavBar />
-    <HeroSec />
+    <!-- <NavBar /> -->
     <router-view />
-    <Footer />
   </section>
 </template>

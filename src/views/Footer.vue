@@ -42,7 +42,7 @@
         <div class="px-26">
             <hr class="border-white">
         </div>
-        <div class="text-white pb-15 relative px-26 pt-4">
+        <div class="text-gray-500 pb-15 relative px-26 pt-4">
             <div class="relative">
                 <h1 class="absolute top-0 left-0 text-md mb-4">Copy Right © 2022 MMS IT, All Rights Reserved.</h1>
             </div>
@@ -61,13 +61,4 @@
         </div>
     </footer>
 </template>
-<!-- <div class="mt-12">
-    <hr>
-    <hr class="border-gray-800 dark:border-white ">
-    <hr class="border-gray-500 dark:border-neutral-500">
-    <hr class="border-teal-500">
-    <hr class="border-blue-500">
-    <hr class="border-red-500">
-    <hr class="border-yellow-500">
-    <hr class="border-white">
-</div> -->
+

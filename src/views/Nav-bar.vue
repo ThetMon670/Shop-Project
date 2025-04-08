@@ -25,7 +25,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6">
               <path fill-rule="evenodd" d="M12 2a6 6 0 100 12 6 6 0 000-12zm0 2a4 4 0 110 8 4 4 0 010-8zm-7 16a7 7 0 0114 0v1H5v-1z" clip-rule="evenodd"/>
             </svg>
-            <p class="text-black">LOGIN</p>
+            <p class="text-black"><router-link to="login">LOGIN</router-link></p>
           </div>
           <div>
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

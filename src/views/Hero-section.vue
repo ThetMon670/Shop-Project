@@ -9,13 +9,12 @@ export default {
   },
 };
 </script>
-
 <template>
   <section
     class="relative w-full bg-cover bg-center"
     :style="{ backgroundImage: `url(${heroImage})` }"
   >
-    <div class="flex flex-col items-center justify-start p-20 h-screen">
+    <div class="flex flex-col items-center justify-start p-28 h-screen">
         <div class="mt-4 text-center">
           <h1 class="text-5xl font-bold">DECORATIVE FUNITURE</h1>
           <p class="pt-3 pb-3 text-center text-gray-400">Trust in our commitment to quality and let our decorative <br> furniture transform your home into luxury furniture</p>

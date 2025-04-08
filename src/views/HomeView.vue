@@ -1,7 +1,12 @@
 <script setup>
+  import Navbar from './Nav-bar.vue'
+  import HeroSec from './Hero-section.vue'
+  import Footer from './Footer.vue'
 </script>
 <template>
   <section>
+    <Navbar/>
+    <HeroSec />
       <div class="px-16 p-4">
         <div>
         <div class="container mx-auto flex flex-wrap justify-between items-center">
@@ -313,5 +318,6 @@
               </div>
           </div>
       </div>
+    <Footer />
   </section>
 </template>
