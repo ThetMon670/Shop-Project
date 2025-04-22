@@ -1,6 +1,6 @@
-<script setup>
+<!-- <script setup>
   import Navbar from './Nav-bar.vue'
-</script>
+</script> -->
 <template>
   <section>
         <Navbar/>
@@ -12,13 +12,13 @@
                     </svg>
                 </div>
                 <div class="pl-32 mb-10">
-                    <img class="rounded-t-lg w-110 h-110" src="../assets/img/detail-1.png" />
+                    <img class="rounded-t-lg w-110 h-110" src="/src/assets/img/detail-1.png" />
                 </div>
                 <div class="grid grid-cols-4 justify-center items-center pl-12 gap-1">
-                    <img class="rounded-t-lg w-20 h-20" src="../assets/img/detail-2.png" />
-                    <img class="rounded-t-lg w-20 h-20" src="../assets/img/detail-3.png" />
-                    <img class="rounded-t-lg w-20 h-20" src="../assets/img/detail-4.png" />
-                    <img class="rounded-t-lg w-20 h-20" src="../assets/img/detail-5.png" />
+                    <img class="rounded-t-lg w-20 h-20" src="/src/assets/img/detail-2.png" />
+                    <img class="rounded-t-lg w-20 h-20" src="/src/assets/img/detail-3.png" />
+                    <img class="rounded-t-lg w-20 h-20" src="/src/assets/img/detail-4.png" />
+                    <img class="rounded-t-lg w-20 h-20" src="/src/assets/img/detail-5.png" />
                 </div>
             </div>
             <div class="h-140">
@@ -73,14 +73,25 @@
                     <div class="flex gap-12 pt-2">
                         <div >
                             <span class="block pb-2">Quantity:</span>
-                            <button class="px-6 py-2 bg-white border-1 border-black text-black font-semibold rounded-lg hover:bg-white-800 transition duration-300">
-                                <span class="p-2">-</span>
-                                <span class="p-2">1</span>
-                                <span class="p-2">+</span>
+                            <button class="border-2 border-black font-semibold hover:bg-white-800 transition duration-300">
+                                <button @click="decrement" class="bg-gray-100 text-gray-600 px-4 py-2 hover:bg-gray-200 transition duration-200 text-xl font-semibold">
+                                &minus;
+                                </button>
+                                <input
+                                :value="quantity"
+                                readonly
+                                class="w-12 text-center border-gray-300 py-3 bg-white text-gray-700 font-medium"
+                                />
+                                <button
+                                @click="increment"
+                                class="bg-gray-100 text-gray-600 px-4 py-2 hover:bg-gray-200 transition duration-200 text-xl font-semibold"
+                                >
+                                &#xff0b;
+                                </button>
                             </button>
                         </div>
                         <div class="mt-8">
-                            <button class="px-6 py-2 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition duration-300">ADD TO CART</button>
+                            <button class="px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition duration-300">ADD TO CART</button>
                         </div>
                     </div>
                 </div>
@@ -93,3 +104,20 @@
         </div>
     </section>
 </template>
+<script setup>
+import { ref } from 'vue'
+
+const quantity = ref(1)
+
+const increment = () => {
+  quantity.value++
+}
+
+const decrement = () => {
+  if (quantity.value === 1) {
+    alert('Negative quantity not allowed')
+  } else {
+    quantity.value--
+  }
+}
+</script>
